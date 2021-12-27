@@ -362,13 +362,13 @@ th.callout-inner {
 table.menu {
   width: 650px; }
   table.menu th.menu-item {
-    padding: 10px;
+    padding: 10px !important;
     padding-right: 10px; }
     table.menu th.menu-item a {
       color: #ab064e; }
 
 table.menu.vertical th.menu-item {
-  padding: 10px;
+  padding: 10px !important;
   padding-right: 0;
   display: block; }
   table.menu.vertical th.menu-item a {
@@ -435,10 +435,9 @@ html,
 table.body {
   margin-top: 15px;
   margin-bottom: 30px; }
-  @media only screen and (min-width: 670px) {
-    table.body .columns {
-      padding-left: 40px;
-      padding-right: 40px; } }
+  table.body .columns {
+    padding-left: 40px;
+    padding-right: 40px; }
 
 .container {
   border-radius: 6px;
@@ -461,7 +460,8 @@ table.body {
   .container .callout-inner {
     border: none;
     border-radius: 4px;
-    background: #fafafa; }
+    background: #fafafa;
+    padding: 20px !important; }
     .container .callout-inner.warning {
       background: #fff7fb; }
 
@@ -499,8 +499,9 @@ a {
   display: block;
   border-radius: 3px; }
 
-.product-card th {
-  padding: 10px; }
+.product-card a {
+  display: block;
+  padding: 10px !important; }
 
 .product-card small > small {
   color: #83898d; }
