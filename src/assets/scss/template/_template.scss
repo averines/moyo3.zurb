@@ -1,0 +1,161 @@
+body,
+html,
+.body {
+  background: #f7f7f7 !important;
+}
+
+table.body {
+  margin-top: 15px;
+  margin-bottom: 30px;
+
+  .columns {
+    @media only screen and (min-width: #{$global-breakpoint}) {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  }
+}
+
+.container {
+  border-radius: 6px;
+  box-shadow: 0 5px 7px #e7e7e7;
+
+  .header {
+    border-radius: 5px 5px 0 0;
+    background-color: $bg-safe;
+    background: linear-gradient(120deg, $bg-dark, $bg-light);
+  }
+
+  .footer {
+    // border-top: 1px solid $light-gray;
+    p {
+      color: $medium-gray;
+      margin-bottom: 6px;
+    }
+  }
+
+  .button {
+    table td {
+      transition: all 0.15s ease-in-out;
+    }
+    &:hover {
+      table td {
+        background-color: darken($primary-color, $button-background-hover-lightness);
+      }
+    }
+  }
+
+  .menu-item {
+    transition: all 0.15s ease-in-out;
+    a:hover {
+      opacity: 0.7;
+    }
+  }
+
+  .callout-inner {
+    border: none;
+    border-radius: 4px;
+    background: lighten($light-gray, 4%);
+
+    &.warning {
+      background: $warning-color;
+    }
+  }
+}
+
+h1 {
+  max-width: 90%;
+}
+
+h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+hr {
+  height: 0;
+  border: none;
+  border-bottom: $hr-border;
+  margin: $hr-margin;
+}
+
+a {
+  transition: opacity 0.15s ease-in-out;
+  > img {
+    transition: opacity 0.15s ease-in-out;
+  }
+
+  &:hover {
+    opacity: 0.8;
+    > img {
+      opacity: 0.8;
+    }
+  }
+}
+
+.menu-categories {
+  a {
+    font-size: 12px;
+    color: $black !important;
+    border-bottom: 1px dashed #000;
+  }
+
+  &--full {
+    > tbody > tr > td {
+      padding: 0 30px;
+    }
+  }
+}
+
+.order-list {
+  > tbody > tr > td {
+    padding-top: 15px;
+    font-size: 14px;
+  }
+}
+
+.order-img {
+  display: block;
+  border-radius: 3px;
+}
+
+.product-card {
+  th {
+    padding: 10px;
+  }
+
+  small > small {
+    color: $medium-gray;
+  }
+  img {
+    width: 100%;
+    display: block;
+    border-radius: 4px;
+  }
+
+  p {
+    padding: 10px;
+  }
+}
+
+.table-head th {
+  color: $medium-gray;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid $light-gray;
+}
+
+.word-break-all {
+  word-break: break-all;
+}
+
+.border-bottom {
+  border-bottom: 1px solid $light-gray;
+}
+
+
+.banner {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
