@@ -56,19 +56,20 @@ subject: Заказ принят
 
       <!-- заголовок таблицы с заказом -->
       <row class="collapse">
-        <columns small="12" large="5" class="show-for-large">
+        <columns small="12" large="4" class="show-for-large">
           <table>
             <tr class="table-head">
               <th class="text-left"><small>Наименование</small></th>
             </tr>
           </table>
         </columns>
-        <columns small="12" large="7">
+        <columns small="12" large="8">
           <table>
             <tr class="table-head">
-              <th class="text-left"><small>Размер</small></th>
-              <th class="text-left"><small>Кол-во</small></th>
-              <th class="text-center"><small>Цена, ₽</small></th>
+              <th class="text-right"><small>Размер</small></th>
+              <th class="text-right"><small>Кол-во</small></th>
+              <th class="text-right"><small>Цена, ₽</small></th>
+              <th class="text-right"><small>Скидка, ₽</small></th>
               <th class="text-right"><small>Сумма, ₽</small></th>
             </tr>
           </table>
@@ -78,11 +79,11 @@ subject: Заказ принят
 
       <!-- строка с товаром -->
       <row class="collapse border-bottom">
-        <columns small="12" large="6">
+        <columns small="12" large="5">
           <table>
             <tr>
               <td>
-                <img class="order-img" src="assets/img/product.jpg" alt="Платье Vittoria Vicci" width="100" height="150">
+                <img class="order-img" src="assets/img/product.jpg" alt="Платье Vittoria Vicci" width="60" height="100">
               </td>
               <td>
                 <p>
@@ -90,21 +91,24 @@ subject: Заказ принят
                   <small>Платье</small>
                 </p>
                 <p><small>
-                    Цвет: Зеленый<br>
-                    Артикул: 219-457-27<br>
-                    ID: 228476
+                    <small>
+                      Цвет: Зеленый<br>
+                      Артикул: 219-457-27<br>
+                      ID: 228476
+                    </small>
                   </small>
                 </p>
               </td>
             </tr>
           </table>
         </columns>
-        <columns small="12" large="6">
+        <columns small="12" large="7">
           <table>
             <tr>
               <td class="text-left"><small>42 <br> 46 <br> 48 <br> 54</small></td>
               <td class="text-right"><small>10 шт. <br> 12 шт. <br> 22 шт. <br> 7 шт.</small></td>
               <td class="text-right"><small>10 250,00 <br> 10 250,00 <br> 10 250,00 <br> 3 250,00</small></td>
+              <td class="text-right"><small class="success-color">-250,00 <br> -250,00 <br> <br> -37,00</small></td>
               <td class="text-right"><b><small>98 120,00 <br> 98 120,00 <br> 8 120,00 <br> 8 100,00</small></b></td>
             </tr>
           </table>
@@ -114,33 +118,35 @@ subject: Заказ принят
 
       <!-- строка с товаром -->
       <row class="collapse border-bottom">
-        <columns small="12" large="6">
+        <columns small="12" large="5">
           <table>
             <tr>
               <td>
-                <img class="order-img" src="assets/img/product.jpg" alt="Платье Vittoria Vicci" width="100" height="150">
+                <img class="order-img" src="assets/img/product.jpg" alt="Платье Vittoria Vicci" width="60" height="100">
               </td>
               <td>
                 <p>
                   <b>Vittoria Vicci</b><br>
                   <small>Платье</small>
                 </p>
-                <p><small>
-                    Цвет: Зеленый<br>
-                    Артикул: 219-457-27<br>
-                    ID: 228476
+                <p><small><small>
+                      Цвет: Зеленый<br>
+                      Артикул: 219-457-27<br>
+                      ID: 228476
+                    </small>
                   </small>
                 </p>
               </td>
             </tr>
           </table>
         </columns>
-        <columns small="12" large="6">
+        <columns small="12" large="7">
           <table>
             <tr>
               <td class="text-center"><small>42 <br> 46 <br> 48 <br> 54</small></td>
               <td class="text-right"><small>10 шт. <br> 12 шт. <br> 22 шт. <br> 7 шт.</small></td>
               <td class="text-right"><small>10 250,00 <br> 10 250,00 <br> 10 250,00 <br> 3 250,00</small></td>
+              <td class="text-right"><small class="success-color">-250,00 <br> -250,00 <br> <br> -37,00</small></td>
               <td class="text-right"><b><small>98 120,00 <br> 98 120,00 <br> 8 120,00 <br> 8 100,00</small></b></td>
             </tr>
           </table>
@@ -149,7 +155,7 @@ subject: Заказ принят
       <spacer size="15"></spacer>
 
       <!-- итог -->
-      <p class="text-right"><b>Итого: 142 480,00₽</b></p>
+      <p class="text-right"><small class="success-color">Скидка: 2 560,00₽</small><br><b>Итого: 142 480,00₽</b></p>
       <p class="text-right"><small><b>Благодарим за покупку!</b> <br>Мы уже начали формировать ваш заказ</small></p>
 
     </columns>
