@@ -1,0 +1,138 @@
+body,
+html,
+.body {
+  background: #f7f7f7 !important;
+}
+
+table.body {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+table.body .columns {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.container {
+  border-radius: 6px;
+  box-shadow: 0 5px 7px #e7e7e7;
+}
+.container .header {
+  border-radius: 5px 5px 0 0;
+  background-color: #c20849;
+  background: linear-gradient(120deg, #980764, #d50342);
+}
+.container .footer p {
+  color: #83898d;
+  margin-bottom: 6px;
+}
+.container .button table td {
+  transition: all 0.15s ease-in-out;
+}
+.container .button:hover table td {
+  background-color: #970545;
+}
+.container .menu-item {
+  transition: all 0.15s ease-in-out;
+}
+.container .menu-item a:hover {
+  opacity: 0.7;
+}
+.container .callout-inner {
+  border: none;
+  border-radius: 4px;
+  background: #fafafa;
+  padding: 20px !important;
+}
+.container .callout-inner.warning {
+  background: #fff7fb;
+}
+
+h1 {
+  max-width: 90%;
+}
+
+h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+hr {
+  height: 0;
+  border: none;
+  border-bottom: 1px solid #f0f0f0;
+  margin: 40px 0;
+}
+
+a {
+  transition: opacity 0.15s ease-in-out;
+}
+a > img {
+  transition: opacity 0.15s ease-in-out;
+}
+a:hover {
+  opacity: 0.8;
+}
+a:hover > img {
+  opacity: 0.8;
+}
+
+.menu-categories a {
+  font-size: 12px;
+  color: #232d37 !important;
+  border-bottom: 1px dashed #000;
+}
+.menu-categories--full > tbody > tr > td {
+  padding: 0 30px;
+}
+
+.order-list > tbody > tr > td {
+  padding-top: 15px;
+  font-size: 14px;
+}
+
+.order-img {
+  display: block;
+  border-radius: 3px;
+}
+
+.product-card a {
+  display: block;
+  padding: 10px !important;
+}
+.product-card small > small {
+  color: #83898d;
+}
+.product-card img {
+  width: 100%;
+  display: block;
+  border-radius: 4px;
+}
+.product-card p {
+  padding: 10px;
+}
+
+.table-head th {
+  color: #83898d;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.word-break-all {
+  word-break: break-all;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.banner {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+.success-color {
+  color: #038184;
+}/*# sourceMappingURL=app.css.map */
